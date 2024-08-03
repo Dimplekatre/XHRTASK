@@ -1,0 +1,32 @@
+
+body{
+      background-image: url(../images/pngtree-background-estetik-polos-untuk-latar-foto-picture-image_1739284.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+.form{
+     background-color:rgb(192, 192, 231);
+     padding: 20px;
+     border-radius: 10px;
+}
+
+.postcard h3{
+      height: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+}
+
+.loader{
+      position: fixed;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0,0,0,.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
